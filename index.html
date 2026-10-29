@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ฟังคำตอบ & โน้ต</title>
+<meta name="theme-color" content="#0f766e">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="ฟังคำตอบ">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" href="icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>ฟังคำตอบ &amp; โน้ต</h1>
+  <nav>
+    <button id="tab-answers" class="tab active" aria-selected="true">🔊 คำตอบ</button>
+    <button id="tab-notes" class="tab" aria-selected="false">📝 โน้ต</button>
+  </nav>
+</header>
+
+<main>
+<section id="page-answers">
+  <p class="hint">iPhone ไม่ยอมให้เสียงดังเองก่อนเราแตะ — แตะ “เล่นต่อเนื่อง” ครั้งเดียว แล้วแอปจะอ่านทุกคำตอบให้ฟังต่อกันเองจนจบ</p>
+  <div class="row">
+    <button id="play-all" class="big primary">▶️ เล่นต่อเนื่อง</button>
+    <button id="stop" class="big danger">⏹ หยุด</button>
+  </div>
+  <div class="row speed">
+    <span>ความเร็วเสียง</span>
+    <button data-rate="0.8" class="rate">ช้า</button>
+    <button data-rate="1" class="rate on">ปกติ</button>
+    <button data-rate="1.2" class="rate">เร็ว</button>
+  </div>
+  <p id="voice-warn" class="warn" hidden></p>
+
+  <details id="add-answer">
+    <summary class="big">➕ เพิ่มคำตอบใหม่</summary>
+    <label>หัวข้อ<input id="a-title" placeholder="เช่น ข่าว AI วันนี้"></label>
+    <label>ข้อความ (วางข้อความที่นี่)<textarea id="a-text" rows="8" placeholder="แตะค้างแล้วเลือก วาง"></textarea></label>
+    <button id="a-save" class="big primary">บันทึกคำตอบ</button>
+  </details>
+
+  <div id="answers"></div>
+</section>
+
+<section id="page-notes" hidden>
+  <input id="n-search" class="search" type="search" placeholder="🔍 ค้นหาโน้ต">
+  <details id="add-note">
+    <summary class="big">➕ เขียนโน้ตใหม่</summary>
+    <label>หัวข้อ<input id="n-title" placeholder="หัวข้อโน้ต"></label>
+    <label>ข้อความ<textarea id="n-text" rows="8"></textarea></label>
+    <button id="n-save" class="big primary">บันทึกโน้ต</button>
+  </details>
+  <div id="notes"></div>
+  <p class="hint small">โน้ตเก็บไว้ในเครื่องนี้เท่านั้น ถ้าลบแอปหรือล้างข้อมูล Safari โน้ตจะหายไป</p>
+</section>
+</main>
+
+<div id="toast" hidden></div>
+<script src="app.js"></script>
+</body>
+</html>
