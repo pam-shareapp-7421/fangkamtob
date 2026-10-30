@@ -12,42 +12,55 @@
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="icon" type="image/png" href="icon-192.png">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css?v=2">
 </head>
 <body>
 <header>
-  <h1>ฟังคำตอบ &amp; โน้ต</h1>
+  <h1>ฟังข่าว · ถาม · โน้ต</h1>
   <nav>
-    <button id="tab-answers" class="tab active" aria-selected="true">🔊 คำตอบ</button>
-    <button id="tab-notes" class="tab" aria-selected="false">📝 โน้ต</button>
+    <button id="tab-news" class="tab active" data-tab="news">📰 ข่าว</button>
+    <button id="tab-ask" class="tab" data-tab="ask">❓ ถาม</button>
+    <button id="tab-notes" class="tab" data-tab="notes">📝 โน้ต</button>
   </nav>
 </header>
 
 <main>
-<section id="page-answers">
-  <p class="hint">iPhone ไม่ยอมให้เสียงดังเองก่อนเราแตะ — แตะ “เล่นต่อเนื่อง” ครั้งเดียว แล้วแอปจะอ่านทุกคำตอบให้ฟังต่อกันเองจนจบ</p>
-  <div class="row">
-    <button id="play-all" class="big primary">▶️ เล่นต่อเนื่อง</button>
-    <button id="stop" class="big danger">⏹ หยุด</button>
-  </div>
-  <div class="row speed">
-    <span>ความเร็วเสียง</span>
-    <button data-rate="0.8" class="rate">ช้า</button>
-    <button data-rate="1" class="rate on">ปกติ</button>
-    <button data-rate="1.2" class="rate">เร็ว</button>
+<!-- ข่าว -->
+<section id="page-news">
+  <button id="start" class="hero">▶️<br>ฟังข่าววันนี้</button>
+  <p id="news-day" class="center small"></p>
+  <div id="news-today"></div>
+  <details id="older">
+    <summary class="big">📅 ข่าววันก่อน ๆ</summary>
+    <div id="news-older"></div>
+  </details>
+  <p class="hint small">ข่าว AI สรุปจาก The Rundown AI และสำนักข่าวอื่น · ข่าวหุ้นสรุปจากหน้าข่าวเว็บไซต์ Tiger Brokers (ไม่ใช่จากแอปโดยตรง) · เป็นข้อมูลทั่วไป ไม่ใช่คำแนะนำการลงทุน</p>
+</section>
+
+<!-- ถาม -->
+<section id="page-ask" hidden>
+  <form id="ask-form">
+    <textarea id="q" rows="3" enterkeyhint="send" placeholder="พิมพ์คำถามที่นี่…"></textarea>
+    <p class="tip">🎤 อยากพูดแทนพิมพ์: แตะไมค์บนแป้นพิมพ์ iPhone พูดจบแล้วกด “ส่ง”</p>
+    <button id="ask-btn" class="big primary wide" type="submit">ถามเลย · ตอบเป็นเสียงทันที</button>
+  </form>
+  <div id="answer-box" hidden>
+    <article class="card playing">
+      <h2 id="ans-q"></h2>
+      <div id="ans-text" class="text"></div>
+      <div class="actions">
+        <button id="ans-replay" type="button">🔊 ฟังอีกครั้ง</button>
+        <button id="ans-note" type="button">📝 บันทึกเป็นโน้ต</button>
+      </div>
+    </article>
   </div>
   <p id="voice-warn" class="warn" hidden></p>
-
-  <details id="add-answer">
-    <summary class="big">➕ เพิ่มคำตอบใหม่</summary>
-    <label>หัวข้อ<input id="a-title" placeholder="เช่น ข่าว AI วันนี้"></label>
-    <label>ข้อความ (วางข้อความที่นี่)<textarea id="a-text" rows="8" placeholder="แตะค้างแล้วเลือก วาง"></textarea></label>
-    <button id="a-save" class="big primary">บันทึกคำตอบ</button>
-  </details>
-
+  <p class="hint small">คำตอบมาจาก AI ฟรี (Pollinations.ai) อาจผิดได้ และไม่รู้ข่าวหลังวันที่โมเดลถูกสร้าง ยกเว้นข่าวในแท็บข่าวที่แอปส่งไปให้ด้วย · คำถามที่พิมพ์จะถูกส่งไปยังบริการนี้ อย่าพิมพ์รหัสผ่านหรือข้อมูลส่วนตัว</p>
+  <h3>คำตอบที่เก็บไว้</h3>
   <div id="answers"></div>
 </section>
 
+<!-- โน้ต -->
 <section id="page-notes" hidden>
   <input id="n-search" class="search" type="search" placeholder="🔍 ค้นหาโน้ต">
   <details id="add-note">
@@ -61,7 +74,9 @@
 </section>
 </main>
 
+<button id="stopbar" hidden>⏹ หยุด</button>
+<audio id="player" preload="none" playsinline></audio>
 <div id="toast" hidden></div>
-<script src="app.js"></script>
+<script src="app.js?v=2"></script>
 </body>
 </html>
