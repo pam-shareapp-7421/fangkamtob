@@ -1,6 +1,6 @@
 'use strict';
 const $ = s => document.querySelector(s);
-const KA = 'fk_answers_v1', KN = 'fk_notes_v1', KR = 'fk_rate_v1', KT = 'fk_tab_v2';
+const KA = 'fk_answers_v1', KR = 'fk_rate_v1';
 const load = (k, d) => { try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch { return d; } };
 const save = (k, v) => localStorage.setItem(k, JSON.stringify(v));
 const uid = () => Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
@@ -10,16 +10,14 @@ function toast(m) { const t = $('#toast'); t.textContent = m; t.hidden = false; 
 
 let answers = load(KA, []);            // saved answers (old data kept)
 answers = answers.filter(a => !a.example); save(KA, answers);
-let notes = load(KN, []);
 const rate = Number(load(KR, 1)) || 1;
 
 /* ---------- Tabs ---------- */
 function showTab(t) {
-  ['news', 'ask', 'notes'].forEach(x => {
+  ['news', 'ask'].forEach(x => {
     $('#page-' + x).hidden = x !== t;
     $('#tab-' + x).classList.toggle('active', x === t);
   });
-  if (t === 'notes') renderNotes();
   if (t === 'ask') renderAnswers();
   scrollTo(0, 0);
 }
@@ -74,7 +72,7 @@ function speak(text, done) {
 
 /* ---------- News ---------- */
 let NEWS = { days: [] };
-const KIND = { ai: ['ai', '🤖 ข่าว AI'], tiger: ['tiger', '📈 หุ้นเทค & AI (Tiger)'] };
+const KIND = { ai: ['ai', '🤖 ข่าว AI'], tiger: ['tiger', '📈 หุ้นเทค & AI (Tiger)'], world: ['world', '🌏 ตลาดหุ้นทั่วโลก'] };
 function clipId(d, it) { return d.date + '-' + it.kind; }
 function cardHTML(d, it) {
   const [cls, lab] = KIND[it.kind] || ['ai', it.kind];
@@ -178,8 +176,6 @@ async function ask(q) {
 $('#ask-form').onsubmit = e => { e.preventDefault(); const q = $('#q').value.trim(); if (!q) { toast('พิมพ์หรือพูดคำถามก่อนนะคะ'); $('#q').focus(); return; } $('#q').blur(); ask(q); };
 $('#q').addEventListener('keydown', e => { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); $('#ask-form').requestSubmit(); } });
 $('#ans-replay').onclick = () => { if (lastAnswer) { stopAll(); speak(lastAnswer.text); } };
-$('#ans-note').onclick = () => { if (lastAnswer) toNote(lastAnswer); };
-function toNote(a) { notes.unshift({ id: uid(), title: a.title, text: a.text, updated: Date.now() }); save(KN, notes); toast('บันทึกเป็นโน้ตแล้ว ✓'); }
 
 function renderAnswers() {
   const box = $('#answers');
@@ -190,7 +186,7 @@ function renderAnswers() {
       <div class="text clip">${esc(a.text)}</div>
       <button class="more">อ่านทั้งหมด ▼</button>
       <div class="actions">
-        <button class="listen">🔊 ฟัง</button><button class="tonote">📝 เป็นโน้ต</button><button class="del">🗑 ลบ</button>
+        <button class="listen">🔊 ฟัง</button><button class="del">🗑 ลบ</button>
       </div>
     </article>`).join('');
 }
@@ -199,45 +195,8 @@ $('#answers').addEventListener('click', e => {
   const a = answers.find(x => x.id === card.dataset.id); if (!a) return;
   if (e.target.closest('.listen')) { stopAll(); speak(a.title + ' . ' + a.text); }
   else if (e.target.closest('.more')) { const t = card.querySelector('.text'); const c = t.classList.toggle('clip'); e.target.textContent = c ? 'อ่านทั้งหมด ▼' : 'ย่อ ▲'; }
-  else if (e.target.closest('.tonote')) toNote(a);
   else if (e.target.closest('.del') && confirm('ลบคำตอบนี้ไหม?')) { answers = answers.filter(x => x !== a); save(KA, answers); renderAnswers(); toast('ลบแล้ว'); }
 });
-
-/* ---------- Notes (unchanged behaviour) ---------- */
-let editingId = null;
-function renderNotes() {
-  const q = $('#n-search').value.trim().toLowerCase();
-  const list = notes.filter(n => !q || (n.title + ' ' + n.text).toLowerCase().includes(q));
-  const box = $('#notes');
-  if (!list.length) { box.innerHTML = `<p class="empty">${q ? 'ไม่พบโน้ตที่ค้นหา' : 'ยังไม่มีโน้ต แตะ “เขียนโน้ตใหม่” ด้านบน'}</p>`; return; }
-  box.innerHTML = list.map(n => `
-    <article class="card" data-id="${n.id}">
-      <h2>${esc(n.title || 'ไม่มีหัวข้อ')}</h2>
-      <div class="date">แก้ไขล่าสุด ${new Date(n.updated).toLocaleString('th-TH', { dateStyle: 'medium', timeStyle: 'short' })}</div>
-      <div class="text">${esc(n.text)}</div>
-      <div class="actions"><button class="edit">✏️ แก้ไข</button><button class="del">🗑 ลบ</button></div>
-    </article>`).join('');
-}
-$('#n-search').addEventListener('input', renderNotes);
-$('#notes').addEventListener('click', e => {
-  const card = e.target.closest('.card'); if (!card) return;
-  const n = notes.find(x => x.id === card.dataset.id);
-  if (e.target.closest('.edit')) {
-    editingId = n.id; $('#n-title').value = n.title; $('#n-text').value = n.text;
-    $('#add-note').open = true; $('#add-note summary').textContent = '✏️ แก้ไขโน้ต'; $('#n-save').textContent = 'บันทึกการแก้ไข';
-    scrollTo({ top: 0, behavior: 'smooth' });
-  } else if (e.target.closest('.del')) {
-    if (confirm('ลบโน้ตนี้ไหม?')) { notes = notes.filter(x => x.id !== n.id); save(KN, notes); renderNotes(); toast('ลบโน้ตแล้ว'); }
-  }
-});
-function resetNoteForm() { editingId = null; $('#n-title').value = ''; $('#n-text').value = ''; $('#add-note').open = false; $('#add-note summary').textContent = '➕ เขียนโน้ตใหม่'; $('#n-save').textContent = 'บันทึกโน้ต'; }
-$('#n-save').onclick = () => {
-  const title = $('#n-title').value.trim(), text = $('#n-text').value.trim();
-  if (!title && !text) { toast('กรุณาเขียนโน้ตก่อน'); return; }
-  if (editingId) { const n = notes.find(x => x.id === editingId); Object.assign(n, { title, text, updated: Date.now() }); notes = [n, ...notes.filter(x => x !== n)]; }
-  else notes.unshift({ id: uid(), title, text, updated: Date.now() });
-  save(KN, notes); resetNoteForm(); renderNotes(); toast('บันทึกโน้ตแล้ว ✓');
-};
 
 loadNews();
 if ('serviceWorker' in navigator) addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>ฟังคำตอบ & โน้ต</title>
+<title>ฟังข่าว & ถาม</title>
 <meta name="theme-color" content="#0f766e">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
@@ -12,15 +12,14 @@
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="icon" type="image/png" href="icon-192.png">
-<link rel="stylesheet" href="style.css?v=2">
+<link rel="stylesheet" href="style.css?v=3">
 </head>
 <body>
 <header>
-  <h1>ฟังข่าว · ถาม · โน้ต</h1>
+  <h1>ฟังข่าว · ถาม</h1>
   <nav>
     <button id="tab-news" class="tab active" data-tab="news">📰 ข่าว</button>
     <button id="tab-ask" class="tab" data-tab="ask">❓ ถาม</button>
-    <button id="tab-notes" class="tab" data-tab="notes">📝 โน้ต</button>
   </nav>
 </header>
 
@@ -34,7 +33,7 @@
     <summary class="big">📅 ข่าววันก่อน ๆ</summary>
     <div id="news-older"></div>
   </details>
-  <p class="hint small">ข่าว AI สรุปจาก The Rundown AI และสำนักข่าวอื่น · ข่าวหุ้นสรุปจากหน้าข่าวเว็บไซต์ Tiger Brokers (ไม่ใช่จากแอปโดยตรง) · เป็นข้อมูลทั่วไป ไม่ใช่คำแนะนำการลงทุน</p>
+  <p class="hint small">ข่าว AI สรุปจาก The Rundown AI และสำนักข่าวอื่น · ข่าวหุ้นสรุปจากหน้าข่าวเว็บไซต์ Tiger Brokers (ไม่ใช่จากแอปโดยตรง) · ตลาดหุ้นทั่วโลกสรุปจากสำนักข่าวต่าง ๆ · เป็นข้อมูลทั่วไป ไม่ใช่คำแนะนำการลงทุน</p>
 </section>
 
 <!-- ถาม -->
@@ -50,7 +49,6 @@
       <div id="ans-text" class="text"></div>
       <div class="actions">
         <button id="ans-replay" type="button">🔊 ฟังอีกครั้ง</button>
-        <button id="ans-note" type="button">📝 บันทึกเป็นโน้ต</button>
       </div>
     </article>
   </div>
@@ -60,23 +58,11 @@
   <div id="answers"></div>
 </section>
 
-<!-- โน้ต -->
-<section id="page-notes" hidden>
-  <input id="n-search" class="search" type="search" placeholder="🔍 ค้นหาโน้ต">
-  <details id="add-note">
-    <summary class="big">➕ เขียนโน้ตใหม่</summary>
-    <label>หัวข้อ<input id="n-title" placeholder="หัวข้อโน้ต"></label>
-    <label>ข้อความ<textarea id="n-text" rows="8"></textarea></label>
-    <button id="n-save" class="big primary">บันทึกโน้ต</button>
-  </details>
-  <div id="notes"></div>
-  <p class="hint small">โน้ตเก็บไว้ในเครื่องนี้เท่านั้น ถ้าลบแอปหรือล้างข้อมูล Safari โน้ตจะหายไป</p>
-</section>
 </main>
 
 <button id="stopbar" hidden>⏹ หยุด</button>
 <audio id="player" preload="none" playsinline></audio>
 <div id="toast" hidden></div>
-<script src="app.js?v=2"></script>
+<script src="app.js?v=3"></script>
 </body>
 </html>

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build news.json + Thai mp3 clips from news-src/YYYY-MM-DD.json.
 Usage: python3 build_news.py   (needs: pip install edge-tts, ffmpeg)
-Each source file: {"date": "YYYY-MM-DD", "items": [{"kind": "ai"|"tiger", "title", "text", "sources": [{name,url}]}]}
+Each source file: {"date": "YYYY-MM-DD", "items": [{"kind": "ai"|"tiger"|"world", "title", "text", "sources": [{name,url}]}]}
 """
 import json, glob, os, subprocess, hashlib, datetime
 ROOT = os.path.dirname(os.path.abspath(__file__))
