@@ -18,13 +18,18 @@ def tts(text, path):
         else: cur = (cur + ' ' + s).strip()
     if cur: parts.append(cur)
     tmp = tempfile.mkdtemp(); files = []
+    cache = os.path.join(tempfile.gettempdir(), 'tts-cache'); os.makedirs(cache, exist_ok=True)
     for i, p in enumerate(parts):
-        fp = os.path.join(tmp, f'{i:03d}.mp3')
-        for attempt in range(4):
-            r = subprocess.run(['edge-tts', '--voice', VOICE, '--rate=-5%', '--text', p, '--write-media', fp], capture_output=True)
-            if r.returncode == 0 and os.path.getsize(fp) > 1000: break
-            time.sleep(3)
-        else: raise SystemExit('TTS failed for: ' + p[:80])
+        # finished parts are cached, so a re-run after a failure only redoes the missing parts
+        fp = os.path.join(cache, hashlib.sha1((VOICE + '-5%' + p).encode()).hexdigest() + '.mp3')
+        if not (os.path.exists(fp) and os.path.getsize(fp) > 1000):
+            # the speech service is flaky (often "No audio received"): retry many times with growing backoff
+            for attempt in range(40):
+                tf = fp + '.part'
+                r = subprocess.run(['edge-tts', '--voice', VOICE, '--rate=-5%', '--text', p, '--write-media', tf], capture_output=True)
+                if r.returncode == 0 and os.path.exists(tf) and os.path.getsize(tf) > 1000: os.replace(tf, fp); break
+                time.sleep(min(30, 2 + 2 * attempt))
+            else: raise SystemExit('TTS failed for: ' + p[:80])
         files.append(fp)
     lst = os.path.join(tmp, 'list.txt')
     open(lst, 'w').write(''.join(f"file '{f}'\n" for f in files))

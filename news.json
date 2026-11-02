@@ -1,6 +1,119 @@
 {
- "updated": "2026-10-30T19:27+00:00",
+ "updated": "2026-11-02T21:00+00:00",
  "days": [
+  {
+   "date": "2026-11-03",
+   "items": [
+    {
+     "kind": "ai",
+     "title": "สรุปข่าว AI วันอังคารที่ 3 พฤศจิกายน",
+     "text": "สรุปข่าว AI ประจำวันอังคารที่ 3 พฤศจิกายนค่ะ. วันนี้มีจดหมายข่าว The Rundown AI ฉบับใหม่ ลงวันที่ 2 พฤศจิกายน. เรื่องแรก ศูนย์ข้อมูล AI กลายเป็นประเด็นใหญ่ในการเลือกตั้งกลางเทอมของสหรัฐ ซึ่งเลือกตั้งวันอังคารนี้ตามเวลาสหรัฐ. The Rundown บอกว่า มีชุมชนประมาณ 20 แห่ง จะลงคะแนนว่าจะห้าม หรือหยุดสร้างศูนย์ข้อมูลชั่วคราวหรือไม่. มีการคาดว่าพรรคเดโมแครตจะได้ครองสภาผู้แทนราษฎร ซึ่งอาจทำให้บริษัท AI ทำงานในวอชิงตันยากขึ้น. ส่วน OpenAI มีรายงานว่าเตรียมเปลี่ยนชื่อเรียกศูนย์ข้อมูลเป็น AI compute campus และชูว่าช่วยสร้างงานให้คนในพื้นที่. เรื่องที่สอง Google บอกว่าดาวเทียมทดลองของโครงการ Project Suncatcher ตอบคำถาม AI ครั้งแรกจากอวกาศได้แล้ว โดยโมเดล Gemma 4 แต่งกลอนไฮกุส่งกลับมาที่โลก. แต่ตอนนี้ไฟฟ้ายังจำกัด ใช้ชิปได้แค่หนึ่งในสี่ตัว ครั้งละประมาณ 20 นาที และจะส่งดาวเทียมที่แรงกว่าขึ้นไปอีกสองดวงในปี 2027. เรื่องที่สาม ข่าวสั้นจาก The Rundown. SpaceX ของอีลอน มัสก์ จะเริ่มใส่ลายน้ำแบบมองไม่เห็นในข้อความที่ Grok เขียนผ่าน API ตั้งแต่วันที่ 7 พฤศจิกายน เพื่อทำตามกฎหมาย AI ของยุโรป. OpenAI ยกเลิกแผนลดโควตาการใช้งาน และเพิ่มโควตาเป็นสองเท่าสำหรับบางแพ็กเกจ. และ Anthropic เปลี่ยนชื่อแพ็กเกจ Max 5x เป็น Max และ Max 20x เป็น Ultra ราคาเท่าเดิม. นอกจากนี้ จากข่าวในแอป Tiger บริษัท Anthropic ผู้สร้าง Claude เปิดเผยรายได้ไตรมาสสามเกือบ 17,000 ล้านดอลลาร์ โตประมาณสิบสองเท่า แต่ขาดทุน 23,300 ล้านดอลลาร์ ก่อนเตรียมขายหุ้น IPO ก่อนวันขอบคุณพระเจ้าของสหรัฐ. จบสรุปข่าว AIค่ะ.",
+     "sources": [
+      {
+       "name": "The Rundown AI: AI backlash heads to the polls (2 พ.ย. 2026)",
+       "url": "https://www.therundown.ai/articles/ai-backlash-heads-to-the-polls"
+      },
+      {
+       "name": "Tiger Newspress: Anthropic Q3 net loss $23.3 billion",
+       "url": "https://www.itiger.com/news/1129447633"
+      }
+     ],
+     "audio": "audio/2026-11-03-ai-f6312f73.mp3",
+     "seconds": 90
+    },
+    {
+     "kind": "tiger",
+     "title": "ข่าวหุ้นเทคและ AI จาก Tiger วันอังคารที่ 3 พฤศจิกายน",
+     "text": "ข่าวหุ้นเทคและ AI จากแอป Tiger ประจำวันอังคารที่ 3 พฤศจิกายนค่ะ. ภาพรวม ตามข่าว Tiger Newspress หุ้นสหรัฐเปิดตลาดวันจันทร์ปรับขึ้น หุ้นเทคฟื้นตัว หลังราคาน้ำมันร่วงแรง เพราะมีความหวังเรื่องการเจรจาระหว่างสหรัฐกับอิหร่าน. ก่อนหน้านี้ สัปดาห์ที่แล้วหุ้นเทคถูกเทขายหนัก เพราะนักลงทุนกังวลว่าเงินที่ลงทุนใน AI จะคุ้มหรือไม่. ข่าวใหญ่วันนี้ Marvell ตกลงซื้อบริษัท Lumentum ผู้ทำอุปกรณ์แสงสำหรับศูนย์ข้อมูล มูลค่าประมาณ 115,000 ล้านดอลลาร์ ตามหัวข่าวของ Reuters แต่หุ้น Marvell ลดลงหลังประกาศ. ต่อมา Oracle จะระดมเงิน 20,000 ล้านดอลลาร์ ทั้งออกหุ้นกู้และขายหุ้นเพิ่ม เพื่อลงทุนด้าน AI และคลาวด์ ทำให้หุ้น Oracle ลดลงเกือบ 6 เปอร์เซ็นต์. Alphabet บริษัทแม่ของ Google ก็จะออกหุ้นกู้สกุลยูโร 6,000 ล้านยูโร. ส่วนมุมมองนักวิเคราะห์จาก Tiger Newspress. Deutsche Bank เพิ่มอันดับ CrowdStrike เป็นน่าซื้อ เพราะเชื่อว่า AI จะทำให้ตลาดความปลอดภัยไซเบอร์โตขึ้น. PhillipCapital เพิ่มอันดับ Amazon เป็นน่าซื้อ และหุ้น Amazon ขึ้นประมาณ 4 เปอร์เซ็นต์ในวันจันทร์. Melius ยังให้ Nvidia เป็นน่าซื้อ แต่ลดราคาเป้าหมายจาก 420 เหลือ 315 ดอลลาร์. Morgan Stanley ลดอันดับ Coinbase เป็นน้อยกว่าตลาด. สิ่งที่ต้องติดตาม คืองบของ Palantir หลังตลาดสหรัฐปิดวันจันทร์ งบของ Apple และ AMD ในสัปดาห์นี้ และผลเลือกตั้งกลางเทอมของสหรัฐ. ข้อมูลนี้ไม่ใช่คำแนะนำการลงทุนค่ะ.",
+     "sources": [
+      {
+       "name": "Tiger Newspress: Nasdaq Opens 0.66% Higher as Oil Prices Tumble, Tech Shares Rebound",
+       "url": "https://www.itiger.com/news/1119241330"
+      },
+      {
+       "name": "Reuters (หัวข่าว): Marvell to Buy Lumentum in $115 Billion Deal",
+       "url": "https://www.itiger.com/news/2680751702"
+      },
+      {
+       "name": "Tiger Newspress: Oracle Stock Falls Nearly 6% After It Taps Investors for $20 Billion",
+       "url": "https://www.itiger.com/news/1104737103"
+      },
+      {
+       "name": "Tiger Newspress: Alphabet Plans to Raise €6 Bln Via Euro Bond",
+       "url": "https://www.itiger.com/news/1187275742"
+      },
+      {
+       "name": "Tiger Newspress: Top Calls on Wall Street",
+       "url": "https://www.itiger.com/news/1184546036"
+      },
+      {
+       "name": "Dow Jones (หัวข่าว): Palantir Expected to Log Higher Revenue, Profit",
+       "url": "https://www.itiger.com/news/2680618437"
+      }
+     ],
+     "audio": "audio/2026-11-03-tiger-950b21a7.mp3",
+     "seconds": 75
+    },
+    {
+     "kind": "world",
+     "title": "ตลาดหุ้นทั่วโลก วันอังคารที่ 3 พฤศจิกายน",
+     "text": "สรุปตลาดหุ้นทั่วโลก ประจำวันอังคารที่ 3 พฤศจิกายนค่ะ. เรื่องใหญ่ที่สุดคือราคาน้ำมันดิ่งลงแรงในวันจันทร์ เพราะมีความหวังว่าสหรัฐกับอิหร่านจะเจรจาสันติภาพ. ประธานาธิบดีอิหร่านบอกว่าผู้นำสูงสุดให้อำนาจรัฐบาลบางส่วนในการเจรจาแล้ว. ตามข่าว Reuters และ Bloomberg น้ำมันดิบเบรนท์ลดลงมากกว่า 7 เปอร์เซ็นต์ เหลือประมาณ 105 ดอลลาร์ต่อบาร์เรล. ตลาดสหรัฐ. วันศุกร์ที่แล้ว ปิดร่วงหนัก ตามข้อมูลของ AP และ Reuters. S&P 500 ลดลง 1.8 เปอร์เซ็นต์ Nasdaq ลดลง 2.9 เปอร์เซ็นต์ และ Dow ลดลง 1.1 เปอร์เซ็นต์ เพราะกังวลเรื่องต้นทุน AI. ส่วนวันจันทร์ ตลาดยังเปิดอยู่ตอนที่ทำคลิปนี้ ช่วงกลางวันที่นิวยอร์ก Dow บวกประมาณ 1 เปอร์เซ็นต์ S&P 500 และ Nasdaq บวกประมาณครึ่งเปอร์เซ็นต์. ตลาดจีน. ตาม RTHK และซินหัว ดัชนีเซี่ยงไฮ้ขึ้น 1.1 เปอร์เซ็นต์ เซินเจิ้นขึ้น 1.6 เปอร์เซ็นต์ เพราะมีข่าวว่าทางการจีนเตรียมมาตรการช่วยตลาดหุ้น. ฮั่งเส็งขึ้น 0.4 เปอร์เซ็นต์ และดัชนีหุ้นเทคฮ่องกงขึ้น 2.3 เปอร์เซ็นต์ หุ้นเสี่ยวหมี่ขึ้นประมาณ 6 เปอร์เซ็นต์ และอาลีบาบาขึ้นประมาณ 2 เปอร์เซ็นต์. ญี่ปุ่น นิกเกอิลดลง 0.3 เปอร์เซ็นต์ เพราะหุ้นชิปหน่วยความจำ Kioxia ร่วง. เกาหลี คอสปี้ขึ้น 2.2 เปอร์เซ็นต์ เพราะการส่งออกดี คนกลับมาซื้อหุ้นชิป. อินเดีย เซนเซ็กซ์ขึ้น 1.7 เปอร์เซ็นต์ สูงสุดในรอบสามเดือน จากงบบริษัทที่ดี โดยเฉพาะ Reliance. ยุโรป ตามข่าว Reuters ดัชนี STOXX 600 ขึ้น 0.4 เปอร์เซ็นต์ ใกล้จุดสูงสุดในรอบสองเดือน. ออสเตรเลีย ASX 200 ลดลง 0.6 เปอร์เซ็นต์ และวันนี้ตลาดคาดว่าธนาคารกลางออสเตรเลียอาจขึ้นดอกเบี้ย. นิวซีแลนด์ NZX 50 ลดลง 0.7 เปอร์เซ็นต์. ตลาดอื่น ๆ ทองคำฟื้นขึ้นมากกว่า 2 เปอร์เซ็นต์ จากจุดต่ำสุดในรอบหนึ่งปี อยู่ที่ประมาณ 3,950 ดอลลาร์ต่อออนซ์. ดอลลาร์สหรัฐอ่อนลงเล็กน้อย. บิตคอยน์ทรงตัวประมาณ 78,000 ดอลลาร์ หลัง Binance ถูกแฮ็ก. สิ่งที่ต้องจับตา คือการเลือกตั้งกลางเทอมของสหรัฐวันนี้ และการเจรจาสหรัฐกับอิหร่าน. ข้อมูลนี้ไม่ใช่คำแนะนำการลงทุนค่ะ.",
+     "sources": [
+      {
+       "name": "Reuters via StreetInsider: Wall St rises as oil falls heading into US midterm elections",
+       "url": "https://www.streetinsider.com/Market+Check/Wall+St+rises+as+oil+falls+heading+into+US+midterm+elections/27268508.html"
+      },
+      {
+       "name": "AP: How major US stock indexes fared Friday 10/30/2026",
+       "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-a01d3551e794fed1a0c317c20bc3f0a2"
+      },
+      {
+       "name": "AP: US stocks recover some of last week's sell-off after oil prices drop",
+       "url": "https://apnews.com/article/stocks-markets-ai-earnings-oil-iran-048328e49e47ce7afe6c1fb9d9acf13d"
+      },
+      {
+       "name": "Bloomberg via SWI: Stocks, Bonds Rise as Oil Tumbles on US-Iran Hopes",
+       "url": "https://www.swissinfo.ch/eng/stocks%2C-bonds-rise-as-oil-tumbles-on-us-iran-hopes%3A-markets-wrap/92310840"
+      },
+      {
+       "name": "RTHK: HK rises as mainland markets rebound on policy talk",
+       "url": "https://news.rthk.hk/rthk/en/component/k2/1876246-20261102.htm"
+      },
+      {
+       "name": "Xinhua: Chinese shares close higher Monday",
+       "url": "https://english.news.cn/20261102/c7f902af5414447795166321e7746611/c.html"
+      },
+      {
+       "name": "Indian Express: Sensex at 3-month high",
+       "url": "https://indianexpress.com/article/business/market/sensex-three-month-high-reliance-rally-positive-earnings-10947378/"
+      },
+      {
+       "name": "Reuters via Euronext: European shares rise as oil falls on Middle East deal hopes",
+       "url": "https://live.euronext.com/en/financial-news/european-shares-rise-oil-falls-middle-east-deal-hopes"
+      },
+      {
+       "name": "Baystreet: Asia markets close mixed (ASX, NZX)",
+       "url": "https://www.baystreet.ca/foreignmarketwrap/5054/Asia-markets-close-mixed-Kospi-leads-gains"
+      },
+      {
+       "name": "Reuters via Euronext: Dollar declines ahead of US midterms; bitcoin steadies",
+       "url": "https://live.euronext.com/en/financial-news/dollar-declines-ahead-us-midterms-oil-falls-bitcoin-steadies-after-crypto-theft"
+      },
+      {
+       "name": "Reuters via Business Recorder: Gold rises over 2% from one-year low",
+       "url": "https://www.brecorder.com/news/40447067/gold-rises-over-2-from-one-year-low-on-softer-oil-prices-us-midterms-in-focus"
+      },
+      {
+       "name": "Swingfolio: ASX 200 down 0.58% (RBA)",
+       "url": "https://swingfolio.com/daily/2026-11-02/afternoon"
+      }
+     ],
+     "audio": "audio/2026-11-03-world-81f099aa.mp3",
+     "seconds": 110
+    }
+   ],
+   "label": "วันอังคารที่ 3 พ.ย. 2569"
+  },
   {
    "date": "2026-10-31",
    "items": [
