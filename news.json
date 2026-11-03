@@ -1,6 +1,135 @@
 {
- "updated": "2026-11-02T21:23+00:00",
+ "updated": "2026-11-03T18:48+00:00",
  "days": [
+  {
+   "date": "2026-11-04",
+   "items": [
+    {
+     "kind": "ai",
+     "title": "สรุปข่าว AI วันพุธที่ 4 พฤศจิกายน",
+     "text": "สรุปข่าว AI ประจำวันพุธที่ 4 พฤศจิกายนค่ะ. วันนี้มีจดหมายข่าว The Rundown AI ฉบับใหม่ ลงวันที่ 3 พฤศจิกายน. เรื่องแรก นักวิจัยของ MIT พบว่า โมเดล GPT-6 Astra ของ OpenAI สามารถซ่อม AI ตัวอื่นได้เอง โดยไม่ต้องฝึกใหม่. มันเข้าไปแก้ตัวเลขข้างในของโมเดลเล็ก Qwen ของอาลีบาบา แค่ส่วนน้อยมาก. ผลคือคะแนนคณิตศาสตร์ขึ้นจากประมาณ 8 เปอร์เซ็นต์ เป็นประมาณ 48 เปอร์เซ็นต์. แต่วิธีนี้ใช้กับโมเดล Gemma 3 ของ Google แล้วแทบไม่ได้ผล. The Rundown บอกว่า นี่อาจเป็นสัญญาณว่า AI กำลังเริ่มพัฒนาตัวเองได้. เรื่องที่สอง OpenAI เปิดตัวแบบทดสอบใหม่ชื่อ LifeVal วัดว่า AI ช่วยงานในชีวิตประจำวันได้ดีแค่ไหน เช่น จองนัด ซื้อของ และกรอกแบบฟอร์มราชการ. คะแนนเฉลี่ยขึ้นจากประมาณ 49 เปอร์เซ็นต์ในรุ่น GPT-5.2 เป็นประมาณ 81 เปอร์เซ็นต์ในรุ่น GPT-6 Astra. เรื่องที่สาม OpenAI ทำข้อตกลงสี่ฉบับกับอาบูดาบี รวมถึงบริษัทน้ำมัน ADNOC รัฐบาลอาบูดาบี และกองทุน Mubadala. มีรายงานว่ากลุ่มจากสหรัฐอาหรับเอมิเรตส์จะเป็นผู้ลงทุนรายใหญ่ที่สุด ในการระดมเงินของ OpenAI สูงสุด 20,000 ล้านดอลลาร์. ข่าวสั้นอื่น ๆ. อีลอน มัสก์ บอกว่าต้นทุนการให้บริการ Grok สูงเกินไปเมื่อเทียบกับรายได้ หลังผู้ใช้บ่นว่าโควตาถูกลด. Anthropic ยื่นเอกสาร IPO ฉบับแก้ไข รายได้ไตรมาสสามเกือบ 17,000 ล้านดอลลาร์ และเขียนว่าโมเดลรุ่นต่อไปอาจใกล้ถึงเส้นความปลอดภัยของบริษัท. และ Claude Code จะไม่ช่วยสร้างเกมดังบางเกมซ้ำ เพราะเรื่องลิขสิทธิ์. นอกจากนี้ The Rundown ฉบับหุ่นยนต์ วันที่ 2 พฤศจิกายน รายงานว่า Meta สร้างหุ่นยนต์รูปร่างคนตัวแรก ชื่อ Max สูงประมาณ 150 เซนติเมตร ไว้ช่วยงานบ้าน ทำร่วมกับบริษัทจีน Fourier ภายในสามเดือน. และ Walmart จะลงทุนเพิ่ม 6,000 ล้านดอลลาร์ ในหุ่นยนต์คลังสินค้าของ Symbotic. จบสรุปข่าว AIค่ะ.",
+     "sources": [
+      {
+       "name": "The Rundown AI: MIT shows AI improving AI, no training required (3 พ.ย. 2026)",
+       "url": "https://www.therundown.ai/articles/mit-shows-ai-improving-ai-no-training-required"
+      },
+      {
+       "name": "The Rundown AI (Robotics): Meta builds its first humanoid robot (2 พ.ย. 2026)",
+       "url": "https://www.therundown.ai/articles/meta-builds-its-first-humanoid-robot"
+      }
+     ],
+     "audio": "audio/2026-11-04-ai-d477620e.mp3",
+     "seconds": 99
+    },
+    {
+     "kind": "tiger",
+     "title": "ข่าวหุ้นเทคและ AI จาก Tiger วันพุธที่ 4 พฤศจิกายน",
+     "text": "ข่าวหุ้นเทคและ AI จากแอป Tiger ประจำวันพุธที่ 4 พฤศจิกายนค่ะ. ภาพรวม ตามข่าว Tiger Newspress วันอังคารซึ่งเป็นวันเลือกตั้งกลางเทอมของสหรัฐ หุ้นชิปเด้งกลับขึ้นมา ทำให้ Nasdaq บวกขึ้น ส่วน Dow ลดลงเพราะหุ้น Apple. ข้อมูลนี้เป็นช่วงที่ตลาดยังเปิดอยู่ ยังไม่ใช่ราคาปิด. หุ้นชิปที่ขึ้น ได้แก่ Micron ขึ้นประมาณ 4 เปอร์เซ็นต์ AMD และ Intel ขึ้นมากกว่า 3 เปอร์เซ็นต์ Broadcom ขึ้นประมาณ 2 เปอร์เซ็นต์. Nvidia ขึ้นประมาณ 3 เปอร์เซ็นต์ มูลค่าบริษัทกลับมาเกิน 5 ล้านล้านดอลลาร์อีกครั้ง. หุ้นคลาวด์ก็ขึ้น เช่น Nebius และ CoreWeave ขึ้นมากกว่า 6 เปอร์เซ็นต์ และ Oracle ขึ้นมากกว่า 4 เปอร์เซ็นต์. ข่าวไม่ดี Apple ลดลงประมาณ 3 เปอร์เซ็นต์ หลังประกาศงบ เพราะคาดว่ากำไรต่อยอดขายไตรมาสนี้จะต่ำกว่าที่ตลาดคิด จากราคาชิปหน่วยความจำที่แพงขึ้น และยอดขาย iPad ต่ำกว่าคาด. ตามหัวข่าว Dow Jones นักวิเคราะห์ UBS กังวลว่าการลงทุนด้าน AI ของ Apple จะกดกำไร. Palantir ลดลงประมาณ 8 เปอร์เซ็นต์ก่อนตลาดเปิด แม้งบไตรมาสสามจะดี เพราะนักลงทุนคาดหวังไว้สูงมาก. ข่าวอื่น ๆ. Meta กลับมาออกหุ้นกู้ เพื่อหาเงินมาลงทุนด้าน AI. Goldman Sachs เพิ่มการคาดการณ์การสร้างศูนย์ข้อมูลถึงปี 2030 ขึ้น 26 เปอร์เซ็นต์. Morgan Stanley มองว่าการขายหุ้น Marvell หลังข่าวซื้อ Lumentum มากเกินไป และมองว่าหุ้นสหรัฐที่ลงมาใกล้จบแล้ว อาจเป็นโอกาสซื้อหลังเลือกตั้ง. สิ่งที่ต้องติดตาม คืองบของ AMD หลังตลาดปิดวันอังคารตามเวลาสหรัฐ งบของ Qualcomm วันพุธ และผลเลือกตั้งกลางเทอมของสหรัฐ. ข้อมูลนี้ไม่ใช่คำแนะนำการลงทุนค่ะ.",
+     "sources": [
+      {
+       "name": "Tiger Newspress: Nasdaq, S&P Tick Higher as Chip Stocks Bounce, Oil Turns Lower on Election Day",
+       "url": "https://www.itiger.com/news/1186702443"
+      },
+      {
+       "name": "Tiger Newspress: NVIDIA Stock Jumps over 3% with Market Cap Back Above $5 Trillion",
+       "url": "https://www.itiger.com/news/1130191493"
+      },
+      {
+       "name": "Tiger Newspress: Cloud Computing Shares Gain (Nebius, CoreWeave, Oracle)",
+       "url": "https://www.itiger.com/news/1169997822"
+      },
+      {
+       "name": "Tiger Newspress: Chip, Storage Shares Jump",
+       "url": "https://www.itiger.com/news/1100164328"
+      },
+      {
+       "name": "Tiger Newspress: Pre-Bell (Apple, Palantir)",
+       "url": "https://www.itiger.com/news/1156336333"
+      },
+      {
+       "name": "Dow Jones (หัวข่าว): Apple's AI Spending a Concern for Margins",
+       "url": "https://www.itiger.com/news/2680737757"
+      },
+      {
+       "name": "Tiger: Meta Returns to the Bond Market to Fund Its AI Expansion",
+       "url": "https://www.itiger.com/news/1163972966"
+      },
+      {
+       "name": "Tiger Analyst Calls: Goldman Raises 2030 Data Center Forecast 26%",
+       "url": "https://www.itiger.com/news/1143579888"
+      },
+      {
+       "name": "Tiger Analyst Calls: Marvell's Lumentum Deal, Morgan Stanley",
+       "url": "https://www.itiger.com/news/1131029682"
+      },
+      {
+       "name": "Tiger Analyst Calls: Morgan Stanley Sees U.S. Stock Pullback Nearing End",
+       "url": "https://www.itiger.com/news/1119483118"
+      },
+      {
+       "name": "Dow Jones (หัวข่าว): Qualcomm Seen Posting Lower 4Q Revenue",
+       "url": "https://www.itiger.com/news/2680776081"
+      }
+     ],
+     "audio": "audio/2026-11-04-tiger-a77b7eb6.mp3",
+     "seconds": 83
+    },
+    {
+     "kind": "world",
+     "title": "ตลาดหุ้นทั่วโลก วันพุธที่ 4 พฤศจิกายน",
+     "text": "สรุปตลาดหุ้นทั่วโลก ประจำวันพุธที่ 4 พฤศจิกายนค่ะ. ตลาดสหรัฐ วันจันทร์ ตอนเช้าหุ้นขึ้น แต่ปิดตลาดแล้วกลับลง ตามข้อมูลของ CNBC และ AP. S&P 500 ลดลง 0.5 เปอร์เซ็นต์ Nasdaq ลดลง 1.1 เปอร์เซ็นต์ ส่วน Dow ขึ้น 0.4 เปอร์เซ็นต์. หุ้นเทคและ AI ยังถูกขาย Marvell ลดลงประมาณ 13 เปอร์เซ็นต์ หลังประกาศซื้อ Lumentum และ Oracle ลดลงประมาณ 8 เปอร์เซ็นต์ หลังประกาศระดมเงิน 20,000 ล้านดอลลาร์. ส่วนหุ้นธุรกิจดั้งเดิม เช่น Home Depot ช่วยดัน Dow ขึ้น. ตลาดจีน วันอังคาร ดัชนีเซี่ยงไฮ้ลดลง 0.8 เปอร์เซ็นต์ เซินเจิ้นลดลง 1.2 เปอร์เซ็นต์ แม้ธนาคารกลางจีนบอกว่าจะช่วยตลาดหุ้น. หุ้น AI จีนลงแรง เช่น Cambricon ลดลงประมาณ 11 เปอร์เซ็นต์. ส่วนฮั่งเส็งขึ้น 0.6 เปอร์เซ็นต์ Trip.com ขึ้นประมาณ 6 เปอร์เซ็นต์ และเสี่ยวหมี่ขึ้นประมาณ 2 เปอร์เซ็นต์. ญี่ปุ่น ตลาดปิด เพราะเป็นวันหยุดวันวัฒนธรรม. เกาหลี คอสปี้ร่วงแรง 3.6 เปอร์เซ็นต์ เพราะกังวลเรื่องเงินลงทุน AI ที่สูงมาก หุ้น Samsung และ SK Hynix ลดลง 4 ถึง 5 เปอร์เซ็นต์. ไต้หวันก็ลดลง 3.6 เปอร์เซ็นต์เช่นกัน. อินเดีย เซนเซ็กซ์ขึ้น 1.6 เปอร์เซ็นต์ เป็นวันที่สองติดกัน. ออสเตรเลีย ธนาคารกลางขึ้นดอกเบี้ย 0.25 เปอร์เซ็นต์ เป็น 4.85 เปอร์เซ็นต์ สูงสุดตั้งแต่ปี 2008 แต่ ASX 200 ยังขึ้น 0.3 เปอร์เซ็นต์. นิวซีแลนด์ NZX 50 ขึ้นเล็กน้อย 0.2 เปอร์เซ็นต์. ยุโรป วันอังคาร ตามข่าว Reuters STOXX 600 ลดลง 0.6 เปอร์เซ็นต์ เพราะยังไม่แน่ใจเรื่องข้อตกลงสันติภาพสหรัฐกับอิหร่าน และหุ้นเหมืองแร่ลดลง. ตลาดอื่น ๆ. น้ำมันดิบเบรนท์ลดลงอีกประมาณ 2 เปอร์เซ็นต์ เหลือประมาณ 103 ดอลลาร์ต่อบาร์เรล ต่ำสุดในรอบสามสัปดาห์ เพราะมีการเจรจาสันติภาพ แม้สหรัฐจะโจมตีเกาะเคชม์ของอิหร่าน. ทองคำลดลงประมาณ 1 เปอร์เซ็นต์ อยู่ที่ประมาณ 3,900 ดอลลาร์ต่อออนซ์. ดอลลาร์สหรัฐทรงตัว. บิตคอยน์ทรงตัวประมาณ 77,000 ดอลลาร์. สิ่งที่ต้องจับตา คือผลเลือกตั้งกลางเทอมของสหรัฐ ที่กำลังนับคะแนน และการเจรจาสหรัฐกับอิหร่าน. ข้อมูลนี้ไม่ใช่คำแนะนำการลงทุนค่ะ.",
+     "sources": [
+      {
+       "name": "CNBC: Stock market news for Nov. 2, 2026",
+       "url": "https://www.cnbc.com/2026/11/01/stock-market-today-live-updates.html"
+      },
+      {
+       "name": "AP: How major US stock indexes fared Monday 11/2/2026",
+       "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-475bb37b4d95dd99e26c94e708c99f8f"
+      },
+      {
+       "name": "Reuters via Business Times: S&P 500 ends down; Apple dips ahead of quarterly report",
+       "url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/us-stocks-sp-500-ends-down-apple-dips-ahead-quarterly-report"
+      },
+      {
+       "name": "dpa-AFX via Finanznachrichten: Asian Shares Mixed As AI Profit Concerns Weigh",
+       "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70015814-asian-shares-mixed-as-ai-profit-concerns-weigh-020.htm"
+      },
+      {
+       "name": "Global Market Now: Kospi, Taiex Sink 3.6%; RBA Hikes to 4.85%",
+       "url": "https://globalmarketnow.org/news/asia-stocks-today-kospi-taiex-sink-rba-hikes/"
+      },
+      {
+       "name": "Investing.com: RBA raises rates to 18-yr high",
+       "url": "https://uk.investing.com/news/stock-market-news/asia-stocks-mixed-as-apple-outlook-weighs-rba-raises-rates-to-18yr-high-4951021"
+      },
+      {
+       "name": "Reuters via Financial Newsletter: European stocks slip as Middle East uncertainty makes for caution",
+       "url": "https://financialnewsletter.com/european-stocks-slip-as-4/"
+      },
+      {
+       "name": "Reuters via Euronext: Oil prices slide about 2% to multi-week low amid peace talks",
+       "url": "https://live.euronext.com/en/financial-news/oil-prices-slide-about-2-multi-week-low-amid-peace-talks"
+      },
+      {
+       "name": "Reuters via Kitco: Gold falls as higher oil stokes inflation fears ahead of US midterms",
+       "url": "http://www.kitco.com/news/off-the-wire/2026-11-03/gold-falls-higher-oil-stokes-inflation-fears-ahead-us-midterms"
+      },
+      {
+       "name": "Yahoo Finance: World indices (US Dollar Index)",
+       "url": "https://sg.finance.yahoo.com/markets/world-indices/"
+      },
+      {
+       "name": "FXStreet: Bitcoin barely holds $76.5K, Gold slips toward $3,900",
+       "url": "https://www.fxstreet.com/analysis/bitcoin-barely-holds-765k-gold-slips-toward-3-900-as-asia-sheds-another-500b-ahead-of-boe-202611031554"
+      }
+     ],
+     "audio": "audio/2026-11-04-world-f6522590.mp3",
+     "seconds": 111
+    }
+   ],
+   "label": "วันพุธที่ 4 พ.ย. 2569"
+  },
   {
    "date": "2026-11-03",
    "items": [
