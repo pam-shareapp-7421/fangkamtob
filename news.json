@@ -1,6 +1,75 @@
 {
- "updated": "2026-11-03T18:48+00:00",
+ "updated": "2026-11-05T02:00+00:00",
  "days": [
+  {
+   "date": "2026-11-05",
+   "items": [
+    {
+     "kind": "ai",
+     "title": "สรุปข่าว AI วันพฤหัสบดีที่ 5 พฤศจิกายน",
+     "text": "สรุปข่าว AI ประจำวันพฤหัสบดีที่ 5 พฤศจิกายนค่ะ. จดหมายข่าว The Rundown AI ฉบับวันที่ 4 พฤศจิกายน มีเรื่องเด่นดังนี้. เรื่องแรก Apple เปิดให้นักพัฒนาแอปทุกคน สร้างฟีเจอร์ของตัวเองเข้าไปใน Siri AI ได้แล้ว. Siri AI คือ Siri ตัวใหม่ที่มองเห็นหน้าจอ และอ่านข้อความของผู้ใช้ได้. ตอนนี้ยังเป็นแค่รุ่นทดลองสำหรับนักพัฒนา แอปที่ใช้ฟีเจอร์นี้จะส่งขึ้น App Store ได้ช่วงฤดูใบไม้ผลิปีหน้า. ในรุ่นทดลองนี้ ประเทศจีนได้ใช้เครื่องมือ Apple Intelligence เป็นครั้งแรกด้วย แต่ยังไม่มี Siri AI. The Rundown มองว่า นี่เป็นการเปิดกำแพงของ Apple ที่สำคัญ แต่ฟีเจอร์ดี ๆ จริง ๆ บน iPhone ยังต้องรออีกนาน. เรื่องที่สอง Google ประกาศว่า บัญชีนักเรียนระดับประถมและมัธยมในสหรัฐ จะเริ่มต้นแบบปิด Search และ Gemini ไว้ ตั้งแต่ต้นปีหน้า. แปลว่าโรงเรียนที่ไม่อยากให้นักเรียนใช้ AI อาจต้องปิด Google Search ไปด้วย เพราะ Google บอกว่า Search กับ AI รวมกันแล้ว. อดีตประธาน FTC คุณลีนา ข่าน วิจารณ์ว่า Google ใช้อำนาจผูกขาดบังคับโรงเรียน. เรื่องที่สาม บริษัทความปลอดภัยไซเบอร์ CrowdStrike เปิดตัวปุ่มหยุดฉุกเฉิน สำหรับ AI agent ที่ทำงานผิดพลาด. ปุ่มนี้ตัดการเชื่อมต่อระหว่าง agent กับโมเดล AI และต้องให้คนกดเท่านั้น. CrowdStrike ยังจะซื้อบริษัท Fiddler AI และ Dreadnode มูลค่ารวมประมาณ 495 ล้านดอลลาร์. จบสรุปข่าว AI ค่ะ.",
+     "sources": [
+      {
+       "name": "The Rundown AI: Apple cracks the door open to Siri AI (4 พ.ย. 2026)",
+       "url": "https://www.therundown.ai/articles/apple-cracks-the-door-open-to-siri-ai"
+      }
+     ],
+     "audio": "audio/2026-11-05-ai-b9def919.mp3",
+     "seconds": 73
+    },
+    {
+     "kind": "tiger",
+     "title": "ข่าวหุ้นเทคและ AI จาก Tiger วันพฤหัสบดีที่ 5 พฤศจิกายน",
+     "text": "ข่าวหุ้นเทคและ AI จาก Tiger ประจำวันพฤหัสบดีที่ 5 พฤศจิกายนค่ะ. คืนวันพุธตามเวลาสหรัฐ หุ้นสหรัฐขึ้นแรง หลังพรรคเดโมแครตได้เสียงข้างมากในสภาคองเกรส. ดัชนีดาวโจนส์ขึ้นประมาณ 3 เปอร์เซ็นต์ S&P 500 ขึ้นประมาณ 1.6 เปอร์เซ็นต์ และแนสแด็กขึ้นประมาณ 1.4 เปอร์เซ็นต์. หุ้นเทคยักษ์ใหญ่นำตลาด. Microsoft ขึ้นประมาณ 6.7 เปอร์เซ็นต์ Amazon ขึ้นประมาณ 6.1 เปอร์เซ็นต์ Apple ขึ้นประมาณ 5.3 เปอร์เซ็นต์ และ Alphabet ขึ้นประมาณ 3.3 เปอร์เซ็นต์. แต่หุ้นชิปและ AI บางตัวลดลง. CoreWeave ลงประมาณ 10 เปอร์เซ็นต์ Micron ลงประมาณ 7 เปอร์เซ็นต์ NVIDIA ลงประมาณ 3 เปอร์เซ็นต์ และ Tesla ลงประมาณ 3 เปอร์เซ็นต์. หลังตลาดปิด Qualcomm ลงหลังประกาศงบ เพราะรายได้จากชิปมือถือลดลง แม้รายได้ชิปรถยนต์เพิ่มขึ้น. Arm คาดการณ์รายได้ดีกว่าที่นักวิเคราะห์คาด เพราะความต้องการ AI ยังแข็งแรง แต่หุ้นก็ยังลดลงหลังตลาดปิด. ส่วน AppLovin พุ่งขึ้นประมาณ 21 เปอร์เซ็นต์หลังประกาศงบ. เช้าวันพฤหัสบดี หุ้นเทคฮ่องกงขึ้นแรง ดัชนี Hang Seng Tech ขึ้นกว่า 3 เปอร์เซ็นต์ Alibaba และ Meituan ขึ้นกว่า 5 เปอร์เซ็นต์ Tencent และ Xiaomi ขึ้นกว่า 4 เปอร์เซ็นต์. ข้อมูลนี้ไม่ใช่คำแนะนำการลงทุนค่ะ.",
+     "sources": [
+      {
+       "name": "Tiger Newspress: Post-Bell, U.S. Stocks Rally Broadly, Dow Jumps Over 3%",
+       "url": "https://www.itiger.com/news/1119643045"
+      },
+      {
+       "name": "Tiger Newspress: 24H, AppLovin Jumps 21% on Earnings; Qualcomm Slips 8%, Arm and Figma Fall 4%",
+       "url": "https://www.itiger.com/news/1175661723"
+      },
+      {
+       "name": "Tiger Newspress: HK Movers, Hang Seng Tech Index Rises Over 3%",
+       "url": "https://www.itiger.com/news/1166559040"
+      }
+     ],
+     "audio": "audio/2026-11-05-tiger-e1794c30.mp3",
+     "seconds": 63
+    },
+    {
+     "kind": "world",
+     "title": "ตลาดหุ้นทั่วโลก วันพฤหัสบดีที่ 5 พฤศจิกายน",
+     "text": "สรุปตลาดหุ้นทั่วโลก ประจำวันพฤหัสบดีที่ 5 พฤศจิกายนค่ะ. เรื่องใหญ่คือ พรรคเดโมแครตชนะการเลือกตั้งกลางเทอม ได้เสียงข้างมากทั้งสองสภาของสหรัฐ. ตลาดทั่วโลกตอบรับในทางบวก. สหรัฐ ดัชนี S&P 500 ขึ้นประมาณ 1.6 เปอร์เซ็นต์ มากที่สุดในรอบสามเดือน. ยุโรป ดัชนี STOXX 600 ขึ้นประมาณ 1.8 เปอร์เซ็นต์ สูงสุดในรอบสองเดือน. หุ้นธนาคารนำตลาด และ Novo Nordisk ขึ้นประมาณ 5.6 เปอร์เซ็นต์ หลังปรับเพิ่มคาดการณ์ยอดขาย. เยอรมนีขึ้นประมาณ 2.2 เปอร์เซ็นต์ อังกฤษขึ้นประมาณ 1.8 เปอร์เซ็นต์. จีน วันพุธ ดัชนีเซี่ยงไฮ้ขึ้นประมาณ 2.2 เปอร์เซ็นต์ และฮั่งเส็งของฮ่องกงขึ้นประมาณ 1.7 เปอร์เซ็นต์. แต่ตั้งแต่ต้นปี หุ้นจีนยังลดลง และเดือนตุลาคมแย่ที่สุดในรอบกว่าสิบปี. อินเดีย ดัชนี Sensex ขึ้นประมาณ 0.5 เปอร์เซ็นต์ และคาดว่าวันนี้จะเปิดบวก. เช้าวันพฤหัสบดี เอเชียผสมกัน. ญี่ปุ่นแกว่งตัว เกาหลีใต้ดัชนี Kospi ลงประมาณ 2 เปอร์เซ็นต์ เพราะกังวลเรื่องหุ้นชิปและศูนย์ข้อมูล. ออสเตรเลีย ดัชนี ASX 200 ขึ้นประมาณ 0.9 เปอร์เซ็นต์. น้ำมันดิบเบรนท์ร่วงแรงประมาณ 8 ถึง 9 เปอร์เซ็นต์ มาอยู่ประมาณ 95 ดอลลาร์ต่อบาร์เรล เพราะตลาดหวังว่าสงครามกับอิหร่านจะจบเร็วขึ้น. ดอลลาร์สหรัฐอ่อนลงเล็กน้อย. ข้อมูลนี้ไม่ใช่คำแนะนำการลงทุนค่ะ.",
+     "sources": [
+      {
+       "name": "Reuters via Euronext: European shares jump over 1% after Democrats sweep US Congress",
+       "url": "https://live.euronext.com/en/financial-news/european-shares-jump-over-1-after-democrats-sweep-us-congress-novo-nordisk-surges"
+      },
+      {
+       "name": "The Edge: Europe Market Wrap 4 November 2026",
+       "url": "https://edgeconsultancykw.com/europe-market-wrap-04-november-2026/"
+      },
+      {
+       "name": "CNBC TV18: Asia markets mixed after Wall Street rally (5 พ.ย. 2026)",
+       "url": "https://www.cnbctv18.com/market/asian-markets-share-price-nikkei-topix-kospi-wall-street-rally-us-midterm-elections-oil-iran-war-chip-stocks-20027442.htm"
+      },
+      {
+       "name": "JournalArta: Asia Markets Today (5 พ.ย. 2026)",
+       "url": "https://journalarta.com/en/2026/11/05/asia-open-nikkei-slips-0-98-as-brent-sinks-below-95-after-wall-street-surge/"
+      },
+      {
+       "name": "Tiger Newspress: Post-Bell, U.S. Stocks Rally Broadly",
+       "url": "https://www.itiger.com/news/1119643045"
+      }
+     ],
+     "audio": "audio/2026-11-05-world-d8a8f805.mp3",
+     "seconds": 70
+    }
+   ],
+   "label": "วันพฤหัสบดีที่ 5 พ.ย. 2569"
+  },
   {
    "date": "2026-11-04",
    "items": [
