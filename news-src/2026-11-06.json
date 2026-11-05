@@ -1,0 +1,31 @@
+{
+ "date": "2026-11-06",
+ "items": [
+  {"kind": "ai", "title": "สรุปข่าว AI วันศุกร์ที่ 6 พฤศจิกายน",
+   "text": "สรุปข่าว AI ประจำวันศุกร์ที่ 6 พฤศจิกายนค่ะ. จดหมายข่าว The Rundown AI ฉบับวันที่ 5 พฤศจิกายน มีเรื่องเด่นดังนี้. เรื่องแรก SpaceXSI เปิดให้ Grok Bot โทรศัพท์แทนผู้ใช้แบบเสียเงินได้แล้ว. บอทสามารถรอสาย จองนัด และต่อรองบิลบนเบอร์สหรัฐได้ โดยผู้ใช้เป็นผู้รับผิดชอบตามกฎหมายทุกสาย และบอทต้องบอกว่าเป็นผู้ช่วยเสมือน. ถ้าเจ้าหน้าที่ถามอะไรที่บอทตอบไม่ได้ ผู้ใช้จะได้ข้อความระหว่างสาย พิมพ์ตอบกลับได้ และดูถอดเสียงสดได้. อีลอน มัสก์ ตอบเรื่องจำกัดการใช้งานว่า ต้นทุนสูงเกินรายได้. เรื่องที่สอง หลังเลือกตั้งกลางเทอมสหรัฐ ผู้มีสิทธิเลือกตั้งส่วนใหญ่โหวตจำกัดศูนย์ข้อมูล. ตามผู้ติดตามการเลือกตั้ง คู่แข่งศูนย์ข้อมูลชนะ 38 จาก 39 มาตรการท้องถิ่นที่นับครบแล้ว. โพลทางออกของ NBC บอกว่า ร้อยละ 76 ไม่เอาศูนย์ข้อมูลในชุมชนตัวเอง และร้อยละ 57 คิดว่า AI จะทำร้ายสังคมมากกว่าช่วย. Goldman Sachs มองว่าประมาณร้อยละ 45 ของความจุศูนย์ข้อมูลในสหรัฐที่วางแผนไว้ อาจถูกแช่แข็งชั่วคราว. The Rundown มองว่า ยุคที่รัฐบาลสหรัฐปล่อย AI แบบหลวม ๆ อาจกำลังจบลง. จบสรุปข่าว AIค่ะ.",
+   "sources": [
+    {"name": "The Rundown AI: AI agents can now make your phone calls (5 พ.ย. 2026)", "url": "https://www.therundown.ai/articles/ai-agents-can-now-make-your-phone-calls"}
+   ]},
+  {"kind": "tiger", "title": "ข่าวหุ้นเทคและ AI จาก Tiger วันศุกร์ที่ 6 พฤศจิกายน",
+   "text": "ข่าวหุ้นเทคและ AI จาก Tiger ประจำวันศุกร์ที่ 6 พฤศจิกายนค่ะ. คืนวันพฤหัสบดีตามเวลาสหรัฐ หุ้นเทคและ AI ร่วงแรง หลังนักลงทุนกังวลว่าพรรคเดโมแครตชนะเลือกตั้งกลางเทอม อาจคุมศูนย์ข้อมูลและ AI เข้มขึ้น. ตามข้อมูล Nasdaq ดัชนีแนสแด็กปิดลงประมาณ 5.2 เปอร์เซ็นต์ เข้าสู่โซนปรับฐาน. Yahoo Finance และรายงานตลาดระบุว่า S&P 500 ลงประมาณ 3 ถึง 4 เปอร์เซ็นต์ และดาวโจนส์ลงประมาณ 2 ถึง 3 เปอร์เซ็นต์. ดัชนีชิป Philadelphia Semiconductor ลงราว 10 ถึง 11 เปอร์เซ็นต์ หนักสุดนับตั้งแต่ต้นโควิดปี 2020. จากหัวข้อและบทสรุปในฟีด Tiger ของ Dow Jones และรายงานบน itiger หุ้น NVIDIA ลงประมาณ 8 ถึง 9 เปอร์เซ็นต์ Oracle ลงประมาณ 7 เปอร์เซ็นต์ Dell ลงกว่า 13 เปอร์เซ็นต์ AMD และ Micron ลงราวสองหลัก Tesla ลงราว 10 เปอร์เซ็นต์ และ Palantir ลงต่อเนื่องวันที่ 8. แต่ AppLovin พุ่งขึ้นประมาณ 30 เปอร์เซ็นต์หลังงบออกดี แม้ตั้งแต่ต้นปียังติดลบกว่า 40 เปอร์เซ็นต์. สาเหตุหลักคือกังวลว่าการสร้างศูนย์ข้อมูลในสหรัฐจะช้าลง หลังประชาชนโหวตต้านในหลายท้องถิ่น และงบ Qualcomm กับ Arm คืนวันพุธไม่เป็นใจ. ข้อมูลนี้ไม่ใช่คำแนะนำการลงทุนค่ะ.",
+   "sources": [
+    {"name": "Nasdaq: NASDAQ Composite history (ปิด 5 พ.ย. 2026 −5.25%)", "url": "https://indexes.nasdaqomx.com/Index/History/COMP"},
+    {"name": "Yahoo Finance: Nasdaq plunges 5% amid chip stock wipeout (5 พ.ย. 2026)", "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-rises-chip-stocks-141439950.html"},
+    {"name": "Tiger / TradingKey: US Stocks Tumble as Nasdaq Drops; Micron Plunges Over 12%", "url": "https://www.itiger.com/news/2681077752"},
+    {"name": "Tiger feed Dow Jones teaser: Oracle Stock Slides as AI Trade Swoons", "url": "https://www.itiger.com/news/2681200529"},
+    {"name": "Tiger feed Dow Jones teaser: Dell Technologies Down over 13%", "url": "https://www.itiger.com/news/2681700536"},
+    {"name": "Tiger feed Dow Jones teaser: Tech Contrarian AppLovin (~+30%)", "url": "https://www.itiger.com/news/2681008219"},
+    {"name": "NBC News: Stocks plunge as AI worries crush tech shares", "url": "https://www.nbcnews.com/business/markets/tech-stocks-plunge-ai-midterms-rcna607650"}
+   ]},
+  {"kind": "world", "title": "ตลาดหุ้นทั่วโลก วันศุกร์ที่ 6 พฤศจิกายน",
+   "text": "สรุปตลาดหุ้นทั่วโลก ประจำวันศุกร์ที่ 6 พฤศจิกายนค่ะ. โฟกัสรอบข้ามคืนคือวันพฤหัสบดีที่ 5 พฤศจิกายน. สหรัฐ หุ้นร่วงแรงเพราะกังวลกฎศูนย์ข้อมูลและ AI. แนสแด็กปิดลงประมาณ 5.2 เปอร์เซ็นต์ เข้าสู่โซนปรับฐาน S&P 500 ลงประมาณ 3 ถึง 4 เปอร์เซ็นต์ และดาวโจนส์ลงประมาณ 2 ถึง 3 เปอร์เซ็นต์. จีนแผ่นดินใหญ่ เซี่ยงไฮ้ขึ้นประมาณ 0.1 เปอร์เซ็นต์ เซินเจิ้นขึ้นประมาณ 1.2 เปอร์เซ็นต์. ฮ่องกง ฮั่งเส็งขึ้นประมาณ 3.7 เปอร์เซ็นต์ นำโดย Alibaba และ Tencent. ญี่ปุ่น นิคเคอิลงประมาณ 1.8 เปอร์เซ็นต์ เพราะหุ้นชิปหนัก แต่ Topix ขึ้นประมาณ 1.2 เปอร์เซ็นต์ และโตโยต้าพุ่งหลังปรับเพิ่มคาดการณ์กำไร. เกาหลีใต้ Kospi ลงประมาณ 5.3 เปอร์เซ็นต์ เพราะ Samsung และ SK hynix ถูกเทขาย. อินเดีย Nifty 50 ขึ้นประมาณ 2.4 เปอร์เซ็นต์. ยุโรปผสมกัน STOXX 600 ลงประมาณ 0.4 เปอร์เซ็นต์ เยอรมนีและอังกฤษลงประมาณ 0.4 เปอร์เซ็นต์ ฝรั่งเศสขึ้นเล็กน้อย และธนาคารกลางอังกฤษขึ้นดอกเบี้ย 0.25 จุด เป็นร้อยละ 4. ออสเตรเลีย ASX 200 ขึ้นประมาณ 2.6 เปอร์เซ็นต์. นิวซีแลนด์ NZX 50 ขึ้นประมาณ 2.2 เปอร์เซ็นต์ สูงสุดเป็นประวัติการณ์. ทองคำขึ้นประมาณ 1.5 ถึง 2 เปอร์เซ็นต์ ราว 4,100 กว่าดอลลาร์ต่อออนซ์. น้ำมันเบรนท์ดีดขึ้นหลังร่วงแรงวันก่อน อยู่ราวกลางถึงปลาย 90 ดอลลาร์ต่อบาร์เรล. บิตคอยน์แกว่งไม่รุนแรง ราว 80,000 ดอลลาร์. ข้อมูลนี้ไม่ใช่คำแนะนำการลงทุนค่ะ.",
+   "sources": [
+    {"name": "Nasdaq: NASDAQ Composite close 5 พ.ย. 2026 (−5.25%)", "url": "https://indexes.nasdaqomx.com/Index/History/COMP"},
+    {"name": "Yahoo Finance: US stocks Thursday 5 พ.ย. 2026", "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-rises-chip-stocks-141439950.html"},
+    {"name": "The Edge: Asia Market Wrap 5 November 2026", "url": "https://edgeconsultancykw.com/asia-market-wrap-05-november-2026/"},
+    {"name": "Malay Mail / dpa-AFX: Asian shares mixed (5 พ.ย. 2026)", "url": "https://www.malaymail.com/news/money/2026/11/05/asian-shares-mixed-as-ai-data-centres-slide-on-regulation-worries/242100"},
+    {"name": "RTTNews via finanzen.ch: European markets close 5 พ.ย. 2026", "url": "https://www.finanzen.ch/nachrichten/aktien/european-markets-pare-early-gains-close-on-weak-note;-tech-stocks-tumble-1036723936"},
+    {"name": "Dow Jones via Morningstar: FTSE 100 ends −0.43% (5 พ.ย. 2026)", "url": "https://www.morningstar.com/news/dow-jones/2026110516737/ftse-100-index-ends-043-lower-at-1078266-data-talk"}
+   ]}
+ ]
+}
