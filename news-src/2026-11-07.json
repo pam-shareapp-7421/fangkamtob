@@ -1,0 +1,33 @@
+{
+ "date": "2026-11-07",
+ "items": [
+  {"kind": "ai", "title": "สรุปข่าว AI วันเสาร์ที่ 7 พฤศจิกายน",
+   "text": "สรุปข่าว AI ประจำวันเสาร์ที่ 7 พฤศจิกายนค่ะ. จดหมายข่าว The Rundown AI ฉบับล่าสุดวันที่ 6 พฤศจิกายน มีเรื่องเด่นดังนี้. เรื่องแรกองค์กรประเมิน AI ชื่อ METR เข้าไปดูข้อมูลภายใน Anthropic นานสิบเอ็ดสัปดาห์ สรุปว่าความก้าวหน้าของ Anthropic น่าจะเร็วขึ้นประมาณสองเท่าเมื่อเทียบกับปีก่อน โดยช่วงประมาณหนึ่งจุดสามถึงสามเท่า และประมาณร้อยละ 80 ของความเร็วที่เพิ่มขึ้นมาจาก AI ของตัวเอง. รายงานยังเผยว่ามีโมเดลภายในสองตัวที่เหนือกว่า Claude Opus ห้าจุดห้า รวมถึงโมเดลสี่ที่ผ่านเกณฑ์ร้อยละห้าสิบในทุกสิบห้าเบนช์มาร์กที่ทดสอบ. Anthropic เซ็นเซอร์หลักฐานแรง ๆ หลายส่วน เพราะกลัวคนอื่นเอาไปเร่งตาม. เรื่องที่สอง OpenAI เปิด Images สองจุดหก เร็วขึ้นประมาณร้อยละห้าสิบ และสร้าง GIF เคลื่อนไหวได้ใน ChatGPT. เรื่องเสริมจากฉบับวันที่ห้า พฤศจิกายน Agility Robotics ผู้ทำหุ่นยนต์ฮิวมานอยด์ Digit เข้า Nasdaq ด้วยมูลค่าประมาณสองจุดห้าพันล้านดอลลาร์ แม้รายได้ปีสองศูนย์สองห้ามีแค่ประมาณหนึ่งจุดแปดล้าน. จบสรุปข่าว AIค่ะ.",
+   "sources": [
+    {"name": "The Rundown AI: An inside look at Anthropic’s AI speedup (6 พ.ย. 2026)", "url": "https://www.therundown.ai/articles/an-inside-look-at-anthropic-s-ai-speedup"},
+    {"name": "The Rundown AI: Agility’s $2.5B humanoid hits Nasdaq (5 พ.ย. 2026)", "url": "https://www.therundown.ai/articles/agility-2-5b-humanoid-hits-nasdaq"}
+   ]},
+  {"kind": "tiger", "title": "ข่าวหุ้นเทคและ AI จาก Tiger วันเสาร์ที่ 7 พฤศจิกายน",
+   "text": "ข่าวหุ้นเทคและ AI จาก Tiger ประจำวันเสาร์ที่ 7 พฤศจิกายนค่ะ. โฟกัสรอบวันศุกร์ที่หก พฤศจิกายน ตามเวลาสหรัฐ หุ้นเทคและชิปเด้งกลับหลังร่วงแรงวันพฤหัส. ตาม Yahoo Finance และรายงานตลาด แนสแด็กขึ้นประมาณหนึ่งถึงหนึ่งจุดสามเปอร์เซ็นต์ S&P ห้าร้อยขึ้นประมาณศูนย์จุดห้าถึงศูนย์จุดเจ็ดเปอร์เซ็นต์ แต่ดาวโจนส์ลงเล็กน้อยประมาณศูนย์จุดหนึ่งถึงศูนย์จุดสองเปอร์เซ็นต์. จากหัวข้อและบทสรุปในฟีด Tiger ของ Dow Jones และ Reuters หุ้น NVIDIA ขึ้นประมาณสี่เปอร์เซ็นต์ AMD ขึ้นประมาณสามถึงสิบเปอร์เซ็นต์ Tesla ขึ้นประมาณห้าเปอร์เซ็นต์ SpaceX ขึ้นประมาณหกถึงเจ็ดเปอร์เซ็นต์หลัง FAA เตรียมผ่อนกฎปล่อยจรวดพาณิชย์ และ Lam Research พุ่งประมาณสิบเปอร์เซ็นต์หลังอนุมัติซื้อคืนหุ้นสองหมื่นห้าพันล้านดอลลาร์. Reuters ระบุว่า Microsoft กำลังยุติดีลเช่าความจุคลาวด์ AI จาก Oracle. ด้าน Dow Jones บอกว่า Airbnb ใช้ AI แก้ปัญหาลูกค้าได้ประมาณร้อยละสี่สิบโดยไม่ต้องคน และต้นทุนซัพพอร์ตต่อการจองลงร้อยละสิบเจ็ด. งานนอกภาคเกษตรสหรัฐออกดีเกินคาด เพิ่มหนึ่งแสนหกหมื่นห้าพันตำแหน่ง ทำให้นักลงทุนเพิ่มโอกาสที่เฟดจะขึ้นดอกเบี้ยในเดือนธันวาคม. ข้อมูลนี้ไม่ใช่คำแนะนำการลงทุนค่ะ.",
+   "sources": [
+    {"name": "Yahoo Finance: Nasdaq, S&P rebound Friday 6 พ.ย. 2026", "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html"},
+    {"name": "Economy Middle East: Nasdaq +1.27% S&P +0.68% Dow −0.17% (6 พ.ย. 2026)", "url": "https://economymiddleeast.com/news/nasdaq-sp-500-rebound-as-chip-stocks-recover-from-sharp-sell-off-dow-dips-as-rate-hike-concerns-persist/"},
+    {"name": "Tiger / Dow Jones: Nvidia, AMD and Other Chip Stocks Rebound", "url": "https://www.itiger.com/news/2681079898"},
+    {"name": "Tiger / Dow Jones: Lam Research Shares Gain on $25B Buyback", "url": "https://www.itiger.com/news/2681895345"},
+    {"name": "Tiger / Dow Jones: SpaceX Rises on FAA Plans to Ease Spaceflight Rules", "url": "https://www.itiger.com/news/2681895059"},
+    {"name": "Tiger / Reuters teaser: Microsoft winding down Oracle AI cloud deal", "url": "https://www.itiger.com/news/2681289612"},
+    {"name": "Tiger / Dow Jones: Airbnb AI Products Gain Traction", "url": "https://www.itiger.com/news/2681896719"}
+   ]},
+  {"kind": "world", "title": "ตลาดหุ้นทั่วโลก วันเสาร์ที่ 7 พฤศจิกายน",
+   "text": "สรุปตลาดหุ้นทั่วโลก ประจำวันเสาร์ที่ 7 พฤศจิกายนค่ะ. โฟกัสรอบวันศุกร์ที่หก พฤศจิกายน. สหรัฐเด้งกลับบางส่วนหลังร่วงแรงวันพฤหัส แนสแด็กขึ้นประมาณหนึ่งถึงหนึ่งจุดสามเปอร์เซ็นต์ S&P ห้าร้อยขึ้นประมาณศูนย์จุดห้าถึงศูนย์จุดเจ็ดเปอร์เซ็นต์ ดาวโจนส์ลงเล็กน้อยประมาณศูนย์จุดหนึ่งเปอร์เซ็นต์. จีนแผ่นดินใหญ่ เซี่ยงไฮ้ลงประมาณหนึ่งจุดหนึ่งเปอร์เซ็นต์ เซินเจิ้นลงประมาณสองจุดหกเปอร์เซ็นต์. ฮ่องกง ฮั่งเส็งลงประมาณหนึ่งจุดสามเปอร์เซ็นต์. ญี่ปุ่นนิคเคอิลงประมาณหกเปอร์เซ็นต์ และ Topix ลงประมาณห้าจุดเก้าเปอร์เซ็นต์ เข้าสู่โซนตลาดหมี. เกาหลีใต้ Kospi ลงประมาณหกเปอร์เซ็นต์ มีการเปิดเซอร์กิตเบรกเกอร์ช่วงเช้า เพราะ Samsung และ SK hynix ถูกเทขาย. อินเดีย Nifty ห้าสิบขึ้นประมาณสองเปอร์เซ็นต์ เป็นดัชนีหลักในเอเชียที่บวก. ยุโรป STOXX หกร้อยลงประมาณหนึ่งเปอร์เซ็นต์ เยอรมนีลงประมาณหนึ่งจุดเก้าเปอร์เซ็นต์ อังกฤษลงประมาณหนึ่งเปอร์เซ็นต์ ฝรั่งเศสลงประมาณศูนย์จุดแปดเปอร์เซ็นต์. ออสเตรเลีย ASX สองร้อยลงประมาณศูนย์จุดห้าเปอร์เซ็นต์. นิวซีแลนด์ NZX ห้าสิบลงประมาณศูนย์จุดเจ็ดเปอร์เซ็นต์. ทองคำลงประมาณศูนย์จุดห้าถึงหนึ่งเปอร์เซ็นต์ ราวสี่พันสี่สิบถึงสี่พันเจ็ดสิบดอลลาร์ต่อออนซ์. น้ำมันเบรนท์แกว่งใกล้เก้าสิบเจ็ดถึงหนึ่งร้อยดอลลาร์ต่อบาร์เรล และติดลบรายสัปดาห์แรงเพราะหวังสงครามอิหร่านผ่อนคลาย. บิตคอยน์แกว่งราวเจ็ดหมื่นหกพันดอลลาร์. ข้อมูลนี้ไม่ใช่คำแนะนำการลงทุนค่ะ.",
+   "sources": [
+    {"name": "Yahoo Finance: US stocks Friday 6 พ.ย. 2026", "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html"},
+    {"name": "The Edge: Asia Market Wrap 6 November 2026", "url": "https://edgeconsultancykw.com/asia-market-wrap-06-november-2026/"},
+    {"name": "The Star / dpa-AFX: Asian shares retreat (6 พ.ย. 2026)", "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/06/asian-shares-retreat-as-tech-stocks-plunge-on-slowdown-fears"},
+    {"name": "NBR: Asian markets routed; NZX 50 Friday close (6 พ.ย. 2026)", "url": "https://www.nbr.co.nz/market-close/asian-markets-routed-over-ai-fears-nzx-50-gains-this-week/"},
+    {"name": "MarketWatch: European stocks close 6 พ.ย. 2026", "url": "https://www.marketwatch.com/data-news/european-stocks-continue-losing-streak-decline-for-second-session-afa9fea2-6c26d7bf5d91"},
+    {"name": "Reuters: European shares fall on AI concerns (6 พ.ย. 2026)", "url": "https://www.reuters.com/markets/europe/european-shares-set-fall-global-ai-rout-gathers-pace-2026-11-06/"},
+    {"name": "CNBC: Gold drops after US payrolls (6 พ.ย. 2026)", "url": "https://www.cnbc.com/2026/11/06/gold-eases-on-inflation-worries-from-higher-oil-us-payrolls-data-in-focus.html"}
+   ]}
+ ]
+}
